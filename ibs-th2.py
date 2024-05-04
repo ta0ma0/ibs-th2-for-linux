@@ -4,6 +4,7 @@ import subprocess
 import bluepy
 import ruamel.yaml as yaml
 from ruamel.yaml import YAML
+import time
 
 sensors_config = 'sensors.yaml'
 
@@ -57,5 +58,5 @@ if __name__ == '__main__':
             print(temperature)
             # show_notification(mac, temperature)
         except Exception as e:
-            print(f"Error retrieving data from sensor {mac}: {e}")
+            print(f"Error")
 
