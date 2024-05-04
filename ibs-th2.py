@@ -4,7 +4,6 @@ import subprocess
 import bluepy
 import ruamel.yaml as yaml
 from ruamel.yaml import YAML
-import influxdb
 
 sensors_config = 'sensors.yaml'
 
